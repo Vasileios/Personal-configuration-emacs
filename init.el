@@ -14,6 +14,9 @@
           (lambda () (org-bullets-mode 1)))
 
 
+;;Visual Line mode provides support for editing by visual lines.
+;; It turns on word-wrapping in the current buffer.
+
 (global-visual-line-mode 1)
 
 
@@ -25,7 +28,7 @@
 
 (setq exec-path (append exec-path '("/usr/texbin")))
 
-;; set minted to latex
+;; add minted to latex-listings
 
 (require 'ox-latex)
 (setq org-export-latex-listings 'minted)
@@ -52,7 +55,7 @@
 
 (setq org-src-fontify-natively t)
 
-;;Emms - set emms (emacs_sound_player) path to emacs
+;;Emms - set emms (emacs_media_player) path to emacs
 
 (add-to-list 'load-path "~/.emacs.d/personal/packages/elisp/emms/")
 
