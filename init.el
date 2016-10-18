@@ -18,8 +18,7 @@
 ;;Visual Line mode provides support for editing by visual lines.
 ;; It turns on word-wrapping in the current buffer.
 
-(global-visual-line-mode 1)
-
+(global-visual-line-mode 1) ;; word-wrapping for all buffers
 
 ;; Display images in the buffer
 
@@ -56,7 +55,7 @@
 
 (setq org-src-fontify-natively t)
 
-;;Emms - set emms (emacs_media_player) path to emacs
+;;Emms - set emms (emacs_multimedia_system) path to emacs
 
 (add-to-list 'load-path "~/.emacs.d/personal/packages/elisp/emms/")
 
