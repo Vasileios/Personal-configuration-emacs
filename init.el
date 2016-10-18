@@ -1,7 +1,8 @@
 
 ;; Package --- Load configuration files.
+;; Require packages: org-notes, org-bullets, elisp/emms, minted
 
-;; org-mode
+;; Org-mode
 
 (require 'package)
 
