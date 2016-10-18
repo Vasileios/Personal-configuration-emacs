@@ -7,7 +7,7 @@
 
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 
-;; Show bullets as UTF-8 character
+;; Show bullets as UTF-8 character instead of asterisks in org-mode
 
 (require 'org-bullets)
 (add-hook 'org-mode-hook
