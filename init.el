@@ -1,6 +1,6 @@
 
 ;; Package --- Load configuration files.
-;; Require packages: org-notes, org-bullets, htmlize up to 1.4, auto-complete-mode, elisp/emms, minted
+;; Require packages: tiny scorg-bullets, htmlize up to 1.4, auto-complete-mode, elisp/emms, minted
 
 ;; Org-mode
 
