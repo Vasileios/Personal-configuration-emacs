@@ -1,6 +1,16 @@
 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;                                                                                 ;;;
+;;;                   Vasilis Agiomyrgianakis experiments with                      ;;;
+;;;                             Org-Mode Configurations                             ;;;
+;;;                              Oct 18, 20016 (20:25)                              ;;;
+;;;                                                                                 ;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
 ;; Package --- Load configuration files.
-;; Require packages: tiny scorg-bullets, htmlize up to 1.4, auto-complete-mode, elisp/emms, minted
+;; Require packages: org-bullets, htmlize up to 1.4, auto-complete-mode, elisp/emms, minted
 
 ;; Org-mode
 
@@ -116,4 +126,6 @@
         (file-expand-wildcards "~/.emacs.d/personal/postload/*.el"))
 
 (provide 'init.el)
+
+;; init.el ends here
 
